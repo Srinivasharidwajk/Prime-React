@@ -1,0 +1,17 @@
+React Material UI
+-----------------
+Bootstrap -> <input type="text" className="form-control">
+
+Material UI -> <TextField/> <Grid> <Card/> <CardHeader>
+               <Table> <TableHeader> <TableBody>
+
+Create a react application : npx create-react-app first-app --template typescript
+
+-> npm install @material-ui/core @material-ui/styles @material-ui/icons
+
+-> in index.html
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+
+-> in index.tsx
+	import '@material-ui/core/umd/material-ui.development';
+
